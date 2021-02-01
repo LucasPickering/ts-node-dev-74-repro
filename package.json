@@ -1,0 +1,18 @@
+{
+  "name": "ts-node-dev-74-repro",
+  "version": "1.0.0",
+  "description": "Reproduction for https://github.com/wclr/ts-node-dev/issues/74",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "start-dev": "ts-node-dev --debug index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "14.14.22",
+    "ts-node": "9.1.1",
+    "ts-node-dev": "1.1.1",
+    "typescript": "4.1.3"
+  }
+}
